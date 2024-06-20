@@ -1,0 +1,90 @@
+.contenedor__tarjeta{
+    width: 200px;
+    height: 270px;
+    border-radius: 20px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(38, 75, 101);
+}
+
+.contenedor__imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -23px;
+}
+
+.pokemon__imagen{
+    z-index: 1;
+    width: 150px;
+}
+
+.circulo__interior{
+    width: 65%;
+    height: 65%;
+    background-color: beige;
+    border-radius: 50%;
+    top: 20px;
+    background-color: black;
+    position: absolute;
+
+    
+}
+
+.contenedor__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon__id{
+    display: flex;
+    width: 55px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin-bottom: -15px;
+}
+
+.pokemon__nombre{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.pokemon__tipos{
+    display: flex;
+    text-transform: capitalize;
+    font-size: small;
+    margin-top: -30px;
+}
+
+.pokemon__tipo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    color:white;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    
+}
+
+.pokemon__tipo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+}

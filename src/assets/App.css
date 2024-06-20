@@ -1,0 +1,14 @@
+*{
+    justify-content: center;
+}
+
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono{
+    font-size: 100px;
+    color: grey;
+}
